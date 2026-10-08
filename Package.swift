@@ -10,11 +10,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/glossom-dev/Adfurikun-SPM-Core.git",
-            exact: "4.4.0"
+            exact: "4.5.0-alpha.1"
         ),
         .package(
             url: "https://github.com/bytedance/AdsGlobalPackage.git",
-            exact: "7.8.5-release.7"
+            exact: "8.2.1-release.2"
         ),
     ],
     targets: [
